@@ -1,0 +1,115 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculando IMC</title>
+
+    <link rel="stylesheet" href="./CSS/tbl.css">
+    <link rel="stylesheet" href="./CSS/container.css">
+    <link rel="stylesheet" href="./CSS/text.css">
+    <link rel="stylesheet" href="./CSS/button.css">
+</head>
+
+<body>
+
+    <div class="nome">
+        <table>
+            <tr>
+                <th>Nome</th>
+                    <td>
+                        <input id="nome" type="text" placeholder="Nome completo...">
+                    </td>
+            </tr>
+                
+        </table>
+
+    </div>
+
+    <div class="tbl">
+        <h1>Tabela IMC</h1>
+
+        <table>
+            <tr>
+                <th id="abaixo">Abaixo</th>
+                <th id="normal">Normal</th>
+                <th id="sobrepeso">Sobrepeso</th>
+                <th id="obesidade1">Obesidade I</th>
+                <th id="obesidade2">Obesidade II</th>
+                <th id="obesidade3">Obesidade III</th>
+            </tr>
+
+            <tr>
+                <td id="fxabaixo">
+                    <p>Menor que 18,5</p>
+                </td>
+
+                <td id="fxnormal">
+                    <p>Entre 18,5 e 24,9</p>
+                </td>
+
+                <td id="fxsobrepeso">
+                    <p>Entre 25,0 e 29,9</p>
+                </td>
+
+                <td id="fxobesidade1">
+                    <p>Entre 30,0 e 34,9</p>
+                </td>
+
+                <td id="fxobesidade2">
+                    <p>Entre 35,0 e 39,9</p>
+                </td>
+
+                <td id="fxobesidade3">
+                    <p>Maior ou igual a 40,0</p>
+                </td>
+            </tr>
+        </table>
+    </div>
+
+
+    <div class="calc">
+        <h1>Calcule seu IMC!</h1>
+
+        <table>
+            <tr>
+                <th>Peso</th>
+
+                <td>
+                    <input id="peso" type="number" placeholder="0.00 kg...">
+                </td>
+
+                <th>Altura</th>
+
+                <td>
+                    <input id="altura" type="number" placeholder="0.00 m...">
+                </td>
+
+                <td class="btn">
+                    <button id="resul">=</button>
+                </td>
+
+                <th>IMC</th>
+
+                <td>
+                    <output id="imc">?</output>
+                </td>
+            </tr>
+        </table>
+    </div>
+
+
+    <div class="form">
+        <h1>Fórmula IMC</h1>
+
+        <p>Peso (kg)</p>
+        <hr>
+        <p>Altura² (m)</p>
+    </div>
+
+
+    <script src="IMC.js"></script>
+
+</body>
+</html>

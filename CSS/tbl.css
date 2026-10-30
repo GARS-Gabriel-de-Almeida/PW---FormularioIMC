@@ -1,0 +1,67 @@
+table, th, td {
+    border: solid 1.5px black;
+}
+
+/* Calculadora do IMC */
+
+.calc, .nome {
+    margin: auto;
+    padding: 1%;
+}
+
+.calc table, .nome table {
+    background-color: green;
+}
+
+.nome table {
+    margin: 0 auto;
+}
+
+.calc th, .nome th {
+    background-color: rgb(255, 255, 255);
+}
+
+.calc td, .nome td {
+    background-color: green;
+}
+
+.calc input {
+    background-color: white;
+    max-width: fit-content;
+}
+
+.nome input {
+    background-color: white;
+    max-width: 95%;
+    width:500px;
+    margin: 0 auto;
+}
+
+.calc output {
+    background-color: white;
+    max-width: fit-content;
+}
+
+/* Tabela do IMC */
+
+.tbl {
+    margin: auto;
+    padding: 1%;
+}
+
+.tbl table {
+    background-color: green;
+}
+
+.tbl th {
+    background-color: rgb(214, 255, 192);
+}
+
+.tbl td {
+    background-color: white;
+}
+
+.destaque {
+    background-color: rgb(195, 255, 127) !important;
+    transition: 0.3s;
+}
